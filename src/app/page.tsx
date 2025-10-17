@@ -11,7 +11,9 @@ export default function HomePage() {
             <div key={project.title} className="group">
               <div className="mb-1 flex items-center gap-3">
                 <a
-                  href={project.live}
+                  href={
+                    project.slug ? `/${project.slug}` : (project.live ?? "#")
+                  }
                   className="text-lg text-rose-700 transition-colors hover:underline dark:text-rose-400"
                 >
                   {project.title}
