@@ -45,9 +45,9 @@ export const projects: Project[] = [
   {
     title: "Tip Calculator",
     description: "Calculate tips from your bill",
-    slug: null,
-    live: "https://bill.nownow.ai",
+    slug: "bill",
+    live: null,
     github: null,
-    tags: [],
+    tags: ["tool", "utility"],
   },
 ];
