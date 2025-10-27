@@ -9,8 +9,16 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Spell Name",
-    description: "Spell clearly over the phone using NATO phonetic alphabet",
+    title: "SnapNSplit",
+    description: "Split bills effortlessly with friends",
+    slug: null,
+    live: "https://snapnsplit.com",
+    github: null,
+    tags: ["tool", "utility", "finance"],
+  },
+  {
+    title: "Words Speller (NATO)",
+    description: "Spell your name clearly over the phone using NATO phonetic alphabet",
     slug: "spell-name",
     live: null,
     github: null,
@@ -45,7 +53,7 @@ export const projects: Project[] = [
   {
     title: "Tip Calculator",
     description: "Calculate tips from your bill",
-    slug: "bill",
+    slug: "tip",
     live: null,
     github: null,
     tags: ["tool", "utility"],
