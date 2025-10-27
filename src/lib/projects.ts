@@ -18,7 +18,8 @@ export const projects: Project[] = [
   },
   {
     title: "Words Speller (NATO)",
-    description: "Spell your name clearly over the phone using NATO phonetic alphabet",
+    description:
+      "Spell your name clearly over the phone using NATO phonetic alphabet",
     slug: "spell-name",
     live: null,
     github: null,
@@ -45,9 +46,9 @@ export const projects: Project[] = [
   {
     title: "Fortune Cookie",
     description: "Get daily fortune cookies from a single tap",
-    slug: null,
-    live: "https://fortune.nownow.ai",
-    github: "https://github.com/taslim/fortunekeeper",
+    slug: "fortune",
+    live: null,
+    github: null,
     tags: [],
   },
   {
