@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Prompts Library",
+    description: "Collection of resuable AI prompts and rules",
+    slug: null,
+    live: "https://prompts.nownow.ai",
+    github: "https://github.com/taslim/prompts",
+    tags: ["tool", "utility", "ai"],
+  },
+  {
     title: "SnapNSplit",
     description: "Split bills effortlessly with friends",
     slug: null,

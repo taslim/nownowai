@@ -4,8 +4,8 @@ import { type Metadata } from "next";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "AI Projects by Taslim Okunola",
-  description: "Satisfying my curiosity by building - one project at a time",
+  title: "Projects by Taslim Okunola",
+  description: "Satisfying my curiosity by building - one project at a time with the help of AI",
   icons: [{ rel: "icon", url: "/sparkle-icon.svg" }],
 };
 
