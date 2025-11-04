@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "ArticleSound",
+    description: "Turn your articles into natural-sounding audio",
+    slug: null,
+    live: "https://www.articlesound.app",
+    github: null,
+    tags: ["audio", "tts", "ai"],
+  },
+  {
     title: "Prompts Library",
     description: "Collection of resuable AI prompts and rules",
     slug: null,
