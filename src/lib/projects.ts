@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Synon",
+    description: "Daily synonym word game",
+    slug: null,
+    live: "https://www.synon.app",
+    github: null,
+    tags: ["game", "word", "synonym"],
+  },
+  {
     title: "ArticleSound",
     description: "Turn your articles into natural-sounding audio",
     slug: null,
