@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "WordsPal",
+    description: "Your companion for physical word games",
+    slug: null,
+    live: "https://www.wordspal.app",
+    github: null,
+    tags: ["tool", "utility", "game"],
+  },
+  {
     title: "Synon",
     description: "Daily synonym word game",
     slug: null,
