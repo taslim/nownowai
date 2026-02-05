@@ -9,6 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "JointFlow",
+    description: "Month-to-month household finance reconciliation for couples",
+    slug: null,
+    live: "https://www.jointflow.io",
+    github: null,
+    tags: ["tool", "utility", "finance"],
+  },
+  {
     title: "WordsPal",
     description: "Your companion for physical word games",
     slug: null,
