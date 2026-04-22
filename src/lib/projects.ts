@@ -9,6 +9,31 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Roadgames",
+    description: "Party games for road trips",
+    slug: null,
+    live: "https://www.roadgames.app",
+    github: null,
+    tags: ["game", "party", "travel"],
+  },
+  {
+    title: "NanoClaw Executive Assistant",
+    description: "Google Workspace Executive Assistant flavor for NanoClaw",
+    slug: null,
+    live: "https://github.com/taslim/nanoclaw-gws-ea",
+    github: "https://github.com/taslim/nanoclaw-gws-ea",
+    tags: ["ai", "agent", "claude", "workspace"],
+  },
+  {
+    title: "CalSync",
+    description:
+      "Mirror personal calendar events as private holds on your work calendar",
+    slug: null,
+    live: "https://github.com/taslim/calsync",
+    github: "https://github.com/taslim/calsync",
+    tags: ["tool", "utility", "calendar"],
+  },
+  {
     title: "JointFlow",
     description: "Month-to-month household finance reconciliation for couples",
     slug: null,
